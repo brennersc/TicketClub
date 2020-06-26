@@ -1,0 +1,5 @@
+php_value date.timezone America/Sao_Paulo
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L] 

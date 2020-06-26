@@ -1,0 +1,967 @@
+html, body .capa {
+	height: 100%;
+}
+
+body {
+	background: url('../img/fundo.png');
+	background-attachment: fixed;
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	overflow-x: hidden;
+}
+
+/*------------------ CONTEUDO DA BARRA ---------------------*/
+
+.logo {
+	height: 80px;
+	width: 250px;
+	display: block;
+	background: url('../img/logo.png') no-repeat;
+	/*border: 1px solid #fff;*/
+	background-size: contain;
+	color: transparent;
+}
+
+#barra-navegacao {
+	/*border: 1px solid black;*/
+	padding-top: 20px;
+}
+
+.divisor {
+	width: 1px;
+	height: 16px;
+	background: #fff;
+	margin: 12px 10px;
+}
+
+/*------------------         BARRA      ---------------------*/
+
+nav.navbar-transparente {
+	background: rgba(0, 0, 0, 0.7);
+	border: none;
+	border-bottom: 6px solid #FF1493;
+	/*ros*/
+	/*background-color: #3CC5FF;       /* azul*/
+	padding-top: 10px;
+	height: 110px;
+}
+
+.navbar-brand {
+	padding: 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #FFF;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #FFF;
+	background: #FF1493;
+	border-radius: 5px;
+}
+
+.navbar-inverse .navbar-nav>li>a:active {
+	color: #fff;
+	background: rgb(234, 0, 129);
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+	color: #fff;
+	background-color: #FF1493;
+}
+
+.navbar-collapse.in {
+	overflow-y: auto;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-toggle {
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-color: transparent;
+	background-image: none;
+	border: 0px solid transparent;
+	border-radius: 4px;
+}
+
+.dropdown-menu {
+	min-width: 205px;
+}
+
+/*-------------------------------  RODAPE ------------------------------*/
+
+#rodape {
+	background: rgba(0, 0, 0, 0.7);
+	border: none;
+	border-top: 6px solid #FF1493;
+	/*ros*/
+	/*background-color: #3CC5FF;       /* azul*/
+	height: 100%;
+	width: auto;
+	color: #fff;
+}
+
+.link-rodape>a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #FFF;
+}
+
+.link-rodape>a:hover {
+	color: #FF1493;
+}
+
+.link-rodape>a:active {
+	color: #fff;
+}
+
+.rede-sociais {
+	height: 20px;
+	width: 30px;
+}
+
+.face {
+	height: 40px;
+	width: 35px;
+	display: block;
+	padding: 5px;
+	background: url('../img/logos/face.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+	float: left;
+}
+
+.twitter {
+	height: 40px;
+	width: 35px;
+	display: block;
+	padding: 5px;
+	background: url('../img/logos/tt.png') no-repeat;
+	/*border: 1px solid red;*/
+	background-size: contain;
+	color: transparent;
+	float: left;
+	margin-top: 3px;
+}
+
+.insta {
+	height: 40px;
+	width: 35px;
+	display: block;
+	padding: 5px;
+	background: url('../img/logos/insta.png') no-repeat;
+	/*border: 1px solid red;*/
+	background-size: contain;
+	color: transparent;
+	float: left;
+}
+
+.gmail {
+	height: 40px;
+	width: 35px;
+	display: block;
+	padding: 5px;
+	background: url('../img/logos/gmail.png') no-repeat;
+	/*border: 1px solid red;*/
+	background-size: contain;
+	color: transparent;
+	float: left;
+}
+
+.linkedin {
+	height: 40px;
+	width: 35px;
+	display: block;
+	padding: 5px;
+	background: url('../img/logos/linkedin.png') no-repeat;
+	/*border: 1px solid red;*/
+	background-size: contain;
+	color: transparent;
+	float: left;
+}
+
+/*-------------------------------  CAPA ------------------------------*/
+
+.capa {
+	display: table;
+	width: 100%;
+}
+
+.texto-capa {
+	text-align: center;
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+	letter-spacing: 3px;
+}
+
+.btn-custom {
+	color: #fff;
+	background: #FF1493;
+	padding: 10px 40px;
+	margin: 70px 0px;
+	font-weight: bold;
+}
+
+.btn-custom:hover {
+	color: #fff;
+	background: rgb(234, 0, 129);
+}
+
+.btn-custom:active {
+	color: #fff;
+}
+
+.btn-custom:visited {
+	color: #fff;
+}
+
+.t {
+	font-size: 80px;
+	font-weight: 550;
+	color: #fff;
+}
+
+.sub-titulo {
+	font-size: 40px;
+	font-weight: 500;
+	color: #fff;
+}
+
+/*-------------------------------    conteudo         -------------------*/
+
+#servicos {
+	background: #E6E6E6;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.cont {
+	font-family: Century Gothic, sans-serif;
+	background: #fff;
+	border-radius: 9px;
+	margin-top: -60px;
+	box-shadow: 0px 0px 30px #A4A4A4;
+	/*border: 1px solid black;*/
+}
+
+/*.cor{      Para testa posicionamento - criar como caixa-(titulo da aba)
+	background-color: #fff;
+	color: #000;
+	border: 1px solid red;
+	margin:  20px;
+	}*/
+
+/*---------------   ANUNCIOS -----------------------*/
+
+.caixa-anuncio-vendido {
+	-webkit-filter: blur(2.5px);
+	-moz-filter: blur(2.5px);
+	-ms-filter: blur(2.5px);
+	-o-filter: blur(2.5px);
+	filter: blur(2.5px);
+	background: url('../img/vendido.png') no-repeat right;
+	margin-bottom: 25px;
+	background-color: #fff;
+	padding: 0px 30px 15px 15px;
+	font-family: Century Gothic, sans-serif;
+}
+
+.caixa-anuncio-inspirados {
+	-webkit-filter: blur(2.5px);
+	-moz-filter: blur(2.5px);
+	-ms-filter: blur(2.5px);
+	-o-filter: blur(2.5px);
+	filter: blur(2.5px);
+	margin-bottom: 25px;
+	background-color: #fff;
+	padding: 0px 30px 15px 15px;
+	font-family: Century Gothic, sans-serif;
+}
+
+.caixa-anuncio-info {
+	background-color: #fff;
+	color: #000;
+	/*	border: 3px solid black;*/
+	padding: 0px 30px 15px 15px;
+	margin-bottom: 25px;
+	font-family: Century Gothic, sans-serif;
+}
+
+.caixa-anuncio {
+	background-color: #fff;
+	color: #000;
+	/*	border: 3px solid black;*/
+	padding: 0px 30px 15px 15px;
+	/*margin: 10px;*/
+	/*margin-bottom: 0px;*/
+	font-family: Century Gothic, sans-serif;
+}
+
+.caixa-anuncio:link {
+	background: #fff;
+}
+
+.caixa-anuncio:visited {
+	background: #D8D8D8;
+}
+
+.caixa-anuncio:hover {
+	background: #FBEFFB;
+	box-shadow: 5px 5px 5px #A4A4A4;
+}
+
+.caixa-anuncio:active {
+	background: #D8D8D8;
+}
+
+.imagem {
+	height: 200px;
+	width: 250px;
+	margin: 0px 0px 20px 20px;
+	border: 1px solid black;
+}
+
+.texto-anuncio {
+	/*border: 1px solid black;*/
+	margin-top: -20px;
+	padding: 10px 20px;
+	margin: 20px;
+	margin-right: 200px;
+	width: 750px;
+}
+
+.titulo {
+	color: #000;
+	/*border: 1px solid #FF1493;*/
+	margin: 15px;
+	font-size: 30px;
+	/*padding-left: 20px;*/
+}
+
+.valor {
+	/*margin-right: -60px;*/
+	/*	border: 1px solid black;*/
+	float: right;
+	text-align: right;
+	font-size: 30px;
+	padding-top: 10px;
+	padding: 10px;
+	color: #000;
+}
+
+.caixa-descricao {
+	/*border: 1px solid #000;*/
+	margin-top: -20px;
+	margin-left: -20px;
+	text-align: left;
+}
+
+.alert-success-pergunta {
+	box-shadow: 0px 0px 30px #A4A4A4;
+	border-radius: 9px !important;
+}
+
+.alert-success-pergunta {
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+
+/*--------------- BUSCA   -----------------------*/
+
+.caixa-de-busca {
+	background-color: #fff;
+	color: #000;
+	/*border: 3px solid black;*/
+	margin-top: 30px;
+	padding: 10px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #FF1493;
+}
+
+.btn-buscar {
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+}
+
+.btn-buscar:hover {
+	color: #fff;
+	background: #FF1493;
+	box-shadow: 0px 0px 10px #A4A4A4;
+}
+
+.caixa-busca-info {
+	background-color: #fff;
+	color: #000;
+	/*	border: 3px solid black;*/
+	font-family: Century Gothic, sans-serif;
+}
+
+.procurar {
+	height: 150px;
+	width: 150px;
+	display: block;
+	/*	margin-left: 45%;
+		margin-bottom: -40px;*/
+	background: url('../img/procurar.png') no-repeat;
+	/*border: 1px solid red;*/
+	background-size: contain;
+	color: transparent;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+/*-------------------------- quem somos TEXTOS -----------------------*/
+
+.TC {
+	color: #FF1493;
+	font-size: 40px;
+	text-shadow: 0px 0px 10px #E6E6E6;
+}
+
+.texto-pg {
+	font-size: 25px;
+	text-align: center;
+}
+
+.caixa-texto {
+	background-color: #fff;
+	color: #000;
+	/*	border: 1px solid red;
+*/
+	margin: 20px;
+	padding: 30px 10px;
+}
+
+.j {
+	text-align: justify;
+}
+
+.destaque {
+	color: #FF1493;
+	font-size: 25px;
+	text-align-last: left;
+	text-shadow: 0px 0px 10px #E6E6E6;
+}
+
+.dinheiro {
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin-left: 10px;
+	background: url('../img/dinheiro.png') no-repeat;
+	/*border: 1px solid red;*/
+	background-size: contain;
+	color: transparent;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	float: left;
+}
+
+.troca {
+	height: 120px;
+	width: 135px;
+	margin-left: 100px;
+	margin-top: 30px;
+	display: block;
+	background: url('../img/troca.png') no-repeat;
+	/*	border: 1px solid red;
+*/
+	background-size: contain;
+	color: transparent;
+}
+
+.ingresso-imagem {
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin-right: 10px;
+	background: url('../img/ingresso.png') no-repeat;
+	/*border: 1px solid red;*/
+	background-size: contain;
+	color: transparent;
+	align-self: center;
+	float: right;
+}
+
+/*-------------------------   DICAS ------------------------*/
+
+.letra-rosa {
+	color: #FF1493;
+	text-shadow: 0px 0px 10px #E6E6E6;
+}
+
+.texto-preto {
+	font-size: 17px;
+	text-align: justify;
+}
+
+/*-------------------------   meus INGRESSO ------------------------*/
+
+.semingresso {
+	height: 200px;
+	width: 200px;
+	display: block;
+	/*	margin-left: 41%;
+margin-bottom: -40px;*/
+	background: url('../img/semingressos.png') no-repeat;
+	/*border: 1px solid red;*/
+	background-size: contain;
+	color: transparent;
+}
+
+.semingressoindex {
+	height: 300px;
+	width: 300px;
+	display: block;
+	/*	margin-left: 41%;
+margin-bottom: -40px;*/
+	background: url('../img/semingressoindex.png') no-repeat;
+	/*border: 1px solid red;*/
+	background-size: contain;
+	color: transparent;
+}
+
+.botao_direita {
+	float: right !important;
+}
+
+/*-------------------------   CADASTRO INGRESSO ------------------------*/
+
+.alert-success {
+	box-shadow: 0px 0px 30px #A4A4A4;
+	margin-bottom: 100px !important;
+	border-radius: 9px !important;
+}
+
+.alert-info {
+	box-shadow: 0px 0px 30px #A4A4A4;
+	border-radius: 9px !important;
+}
+
+.cont-ingresso {
+	background: #fff;
+	border-radius: 9px;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	padding: 10px;
+	box-shadow: 0px 0px 30px #A4A4A4;
+	/*border: 1px solid black;*/
+}
+
+.caixa-anuncio-ingresso {
+	background-color: #fff;
+	color: #000;
+	/*border: 1px solid red;*/
+	margin: 20px;
+}
+
+.btn-publicar {
+	color: #fff;
+	background: #FF1493;
+	font-size: 17px;
+	font-weight: 80px;
+	padding: 10px 40px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.btn-publicar:hover {
+	color: #fff;
+	background: rgb(234, 0, 129);
+}
+
+.btn-publicar:active {
+	color: #fff;
+}
+
+.btn-publicar:visited {
+	color: #fff;
+}
+
+/*-------------------------   CADASTRO LOGIN ------------------------*/
+
+.capa-cadastro {
+	background: rgba(0, 0, 0, 0.7);
+	border: none;
+	/* border-bottom: 6px solid #FF1493;  ros*/
+	padding: 10px;
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+.titulo-cadastro {
+	font-size: 50px;
+	font-weight: 550;
+	color: #fff;
+}
+
+.esqueci-senha {
+	color: #38b;
+	cursor: pointer;
+}
+
+.caixa-cadastro1 {
+	/*border: 1px solid red;*/
+	padding-top: 20px;
+	margin: 30px 0px 0px 30px;
+	margin-bottom: 20px;
+	padding-right: 40px;
+	border-right: 1px solid #CCC;
+}
+
+.caixa-cadastro2 {
+	/*border: 1px solid red;*/
+	padding-top: 20px;
+	margin: 30px 30px 0px 10px;
+	margin-bottom: 20px;
+}
+
+/* .caixa-facebook{
+
+	border: 1px solid black;
+	margin: 30px;
+	padding-right: 70px;
+	font: inherit;
+
+} */
+
+/*.botao-face{
+
+	font-size: 15px;
+	font-weight: bold;
+	font-style: Facebook Letter Faces, sans-serif;
+
+
+	}*/
+
+.btn-face {
+	color: #fff;
+	background: #4267b2;
+	padding: 5px 30px;
+	font-size: 15px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.btn-face:hover {
+	color: #fff;
+	background: #3a5c91;
+}
+
+.btn-face:active {
+	color: #fff;
+}
+
+.btn-face:visited {
+	color: #fff;
+}
+
+.btn-cadastro {
+	color: #fff;
+	background: #FF1493;
+	padding: 5px 30px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.btn-cadastro:hover {
+	color: #fff;
+	background: rgb(234, 0, 129);
+}
+
+.btn-cadastro:active {
+	color: #fff;
+}
+
+.btn-cadastro:visited {
+	color: #fff;
+}
+
+.erro_usuario {
+	color: #ff0000;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Century Gothic, sans-serif;
+}
+
+.sucesso3 {
+	color: #00cc00;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Century Gothic, sans-serif;
+}
+
+.sucessoemail {
+	color: #00cc00;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Century Gothic, sans-serif;
+}
+
+.x {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*-------------------------  cadastro usuario ------------------------*/
+
+.cont-usuario {
+	background: #fff;
+	/*	border-radius: 9px;
+		margin-top: 50px;*/
+	/*margin-bottom: 70px;*/
+	padding: 10px;
+	/*	box-shadow: 0px 0px 30px #A4A4A4;*/
+	/*border: 1px solid black;*/
+}
+
+.caixa-usuario-2 {
+	background-color: #fff;
+	color: #000;
+	/*border: 1px solid red;*/
+	/*margin-top: 10px;*/
+	margin: 5px 20px 20px 20px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	color: #000;
+	cursor: default;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+	border-bottom: 3px solid #FF1493;
+}
+
+.nav-tabs>li>a {
+	margin-right: 2px;
+	line-height: 1.42857143;
+	border: 1px solid transparent;
+	border-radius: 6px 6px 0 0;
+}
+
+.nav>li>a {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+}
+
+a {
+	color: #808080;
+	text-decoration: none;
+}
+
+a {
+	background-color: transparent;
+}
+
+/*------------------------- Media queries ------------------------*/
+
+/* celulares (xs < 768) */
+
+@media screen and (max-width: 767px) {
+	body {
+		font-size: 10px;
+	}
+	.logo {
+		height: 80px;
+		width: 100px;
+		display: block;
+		background: url('../img/logo.png') no-repeat;
+		/*border: 1px solid #fff;*/
+		background-size: contain;
+		color: transparent;
+	}
+	nav.navbar-transparente {
+		background: rgba(0, 0, 0, 0.7);
+		border: none;
+		border-bottom: 6px solid #FF1493;
+		padding-top: 10px;
+		height: 90px;
+	}
+	.divisor {
+		width: 100%;
+		height: 1px;
+		background: #fff;
+		margin: 15px 0px 15px 0px;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+		color: #f5f5f5;
+	}
+	.espaço {
+		width: 100%;
+		height: 90px !important;
+	}
+	.titulo {
+		color: #000;
+		/*border: 1px solid #000;*/
+		font-size: 15px;
+		margin: 20px;
+		/*padding-left: 20px;*/
+	}
+	h2 {
+		font-size: 15px;
+	}
+	.h3, h3 {
+		font-size: 15px;
+	}
+	h4 {
+		font-size: 12px;
+	}
+	.caixa-descricao {
+		/*border: 1px solid #000;*/
+		margin-top: -20px;
+		margin-left: -20px;
+		text-align: left;
+		font-size: 10px;
+	}
+	.imagem {
+		height: 150px;
+		width: 200px;
+		margin: 0px 0px 20px 20px;
+		border: 1px solid black;
+	}
+	.valor {
+		/*margin-right: -60px;*/
+		float: right;
+		text-align: right;
+		font-size: 20px;
+		/*border: 1px solid black;*/
+	}
+	.texto-anuncio {
+		width: 340px;
+	}
+	.letra-rosa {
+		font-size: 30px;
+	}
+	/* --VENDIDO --*/
+	.caixa-anuncio-vendido {
+		-webkit-filter: blur(2.5px);
+		-moz-filter: blur(2.5px);
+		-ms-filter: blur(2.5px);
+		-o-filter: blur(2.5px);
+		filter: blur(2.5px);
+		background: url(../img/vendido.png) no-repeat right;
+		margin-bottom: 25px;
+		background-color: #fff;
+		padding: 0px 30px 15px 15px;
+		font-family: Century Gothic, sans-serif;
+		background-size: 50%;
+		background-position-y: 250px;
+	}
+	/*------------------------ QUEM SOMOS-------------------------------*/
+	.dinheiro {
+		height: 70px;
+		width: 70px;
+		margin-left: 0px;
+		margin-top: -80px;
+		/*border: 1px solid red;*/
+	}
+	.troca {
+		height: 70px;
+		width: 70px;
+		margin-left: 30%;
+		display: inline-block;
+		align-items: center;
+		/*border: 1px solid red;*/
+	}
+	.ingresso-imagem {
+		height: 70px;
+		width: 70px;
+		margin-right: 0px;
+		margin-top: 25px;
+		/*border: 1px solid red;*/
+	}
+}
+
+/* tabletes (sm) */
+
+@media screen and (min-width: 768px) and (max-width: 1159px) {
+	.texto-anuncio {
+		/*border: 1px solid red;*/
+		margin-top: -20px;
+		padding: 10px 90px;
+		margin: 20px;
+		margin-right: 200px;
+		width: 500px;
+	}
+	.valor {
+		/*margin-right: -60px;*/
+		/*border: 1px solid red;*/
+		/*color: #FF1493;*/
+		float: right;
+		text-align: right;
+		font-size: 25px;
+	}
+}
+
+/* telas maiores (lg) */
+
+@media screen and (min-width: 1900px) or (min-height: 1285px) {
+	main {
+		background-color: #E6E6E6;
+		display: block;
+		min-height: 100vh;
+		min-height: -webkit-calc(100vh - 100px);
+		min-height: -moz-calc(100vh - 100px);
+		min-height: calc(100vh - 100px);
+		position: relative;
+		width: 100%;
+	}
+}
+
+@media screen and (min-height: 1285px) {
+	main {
+		background-color: #E6E6E6;
+		display: block;
+		min-height: 100vh;
+		min-height: -webkit-calc(100vh - 100px);
+		min-height: -moz-calc(100vh - 100px);
+		min-height: calc(100vh - 100px);
+		position: relative;
+		width: 100%;
+	}
+}
+
+/*------------------------- cores  ------------------------*/
+
+.rosa {
+	color: #FF1493;
+	font-size: 25px;
+	text-shadow: 0px 0px 10px #E6E6E6;
+}
+
+/*-------------------------   ------------------------*/
+
+.cor {
+	/*	background-color: #fff;
+color: #000;*/
+	border: 1px solid #000;
+	/*	font-size: 16px;
+	margin:  5px;
+	overflow-x: hidden;*/
+}
+
+.cinza {
+	border: 1px solid #cccccc;
+}
+
+.linha-rosa {
+	border: 1px solid #FF1493;
+}
+
+.espaço {
+	width: 100%;
+	height: 110px;
+}
