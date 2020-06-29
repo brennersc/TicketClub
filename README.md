@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://myticketclub.com.br/">
-    <img src="https://github.com/brennersc/TicketClub/blob/master/img/logo.png" alt="TicketClub logo" width="200" height="265">
+    <img src="https://github.com/brennersc/TicketClub/blob/master/img/logo.png" alt="TicketClub logo" width="200" height="150">
   </a>
 </p>
 
